@@ -1,0 +1,10 @@
+.main-footer {
+  height: 50px;
+  background: var(--color-principal);
+  font-size: 15px;
+  text-align: center;
+}
+.footer-title {
+  padding-top: 15px;
+  color: azure;
+}
