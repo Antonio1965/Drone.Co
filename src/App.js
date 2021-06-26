@@ -1,15 +1,12 @@
-import "./App.css";
-
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import { Contactos } from "./components/Contactos";
-import Footer from "./components/Footer";
+import NavBar from "./components/General/NavBar";
+import Footer from "./components/General/Footer";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Main />
+      <h2 className="title-oferta">La oferta de la semana. Aproveche!!!!</h2>
+      <hr />
       <Footer pieDePagina="Copyright @, derechos reservados Drone.Co -Junio 2021" />
     </>
   );

@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer ({pieDePagina}){
     return (
         <div className='main-footer'>
-            <h3 className='footer-title'>{pieDePagina}</h3>
+            <span className='footer-title'>{pieDePagina}</span>
 
         </div>
     )

@@ -1,26 +1,24 @@
 import "./NavBar.css";
-import logo from "../img/logo/antonio1.svg";
-
-import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../../img/logo/antonio1.svg";
 
 function NavBar() {
   return (
     <nav className="nav">
       <div className="container">
         <img className="imagen-logo" src={logo} alt="logo"></img>
-        <h1>Drone.Co</h1>
+        <h1 className='title'>Drone.Co</h1>
         <ul>
-          <li>
+          <li className='list-item'>
             <a href="/">Home</a>
-          </li>
-          <li>
+          </li >
+          <li className='list-item'>
             <a href="#">Productos</a>
           </li>
-          <li>
+          <li className='list-item'>
             <a href="#">Servicios</a>
           </li>
-          <li>
-            <a href="#">Contactos</a>
+          <li className='list-item'>
+            <a href="">Contactos</a>
           </li>
         </ul>
       </div>
